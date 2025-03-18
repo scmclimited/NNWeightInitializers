@@ -1,7 +1,3 @@
-                                                                        -- Neural Network Weight Initializers --
-
------
-
 # Weight Initialization Methods in Deep Learning
 
 Proper weight initialization is crucial for training deep neural networks. It prevents issues like vanishing/exploding gradients and helps models converge faster ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/#:~:text=As%20you%20can%20see%2C%20in,was%20later%20refined%20into%20Kaiming)) ([Selecting the right weight initialization for your deep neural network - Comet](https://www.comet.com/site/blog/selecting-the-right-weight-initialization-for-your-deep-neural-network/#:~:text=Improperly%20initialized%20weights%20can%20negatively,propagation%20%28see%20more%C2%A0here)). Below, we compile **15 academic sources** and **10 high-quality online publications** that discuss five common initialization methods – **Glorot (Xavier)**, **He (Kaiming)**, **LeCun**, **Orthogonal**, and **Zero** initialization. Each source’s key contributions are summarized, including the mathematical formulation, theoretical justification, practical usage, and empirical findings. We then compare these initialization schemes on theoretical and empirical grounds.
