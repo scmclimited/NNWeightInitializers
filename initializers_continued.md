@@ -53,7 +53,8 @@ Here $\text{fan}_\text{in}$ is used instead of fan_avg, and the 2 doubles the va
 
  ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/)) *He (Kaiming) vs Xavier initialization on a 30-layer ReLU network (error rate vs epochs). The He-initialized network (red) converges, while the Xavier-initialized network (blue dashed) fails to improve (stuck near ~0.98 error) ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/#:~:text=Here%E2%80%99s%20the%20graph%20for%20the,layer%20model)).*
 
- ![He vs Xavier Convergence](./error_vs_epoch.png)
+![He vs Xavier Convergence](./error_vs_epoch.png)
+- GPT 4o Deep Research Generated Error vs Epoch Comparison
 
 
 Notably, for **shallower networks** (e.g. ~10–20 layers), Xavier and He may both work – He might converge a bit faster, but final accuracy can be similar ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/#:~:text=Error%20rate%20as%20a%20function,model%20%20source%3A%20Kaiming%20paper)). In very deep cases, however, He initialization is often essential for any learning to happen ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/#:~:text=30,paper)). 
@@ -239,3 +240,6 @@ By doing so, you’ll set up your network to train on a solid foundation. And as
 
 8. Pinecone – *Weight Initialization Techniques in Neural Networks* (2023). ([Weight Initialization Techniques in Neural Networks | Pinecone](https://www.pinecone.io/learn/weight-initialization/#:~:text=,from%20a%20distribution%20whose%20variance)) ([Weight Initialization Techniques in Neural Networks | Pinecone](https://www.pinecone.io/learn/weight-initialization/#:~:text=is%20neither%20too%20large%20nor,to%20use%20the%20He%20initialization))
 
+
+## GPT 4o Deep Research Sources 
+![GPT Sources](./sources.png)
