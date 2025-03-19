@@ -53,7 +53,7 @@ Here $\text{fan}_\text{in}$ is used instead of fan_avg, and the 2 doubles the va
 
  ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/)) *He (Kaiming) vs Xavier initialization on a 30-layer ReLU network (error rate vs epochs). The He-initialized network (red) converges, while the Xavier-initialized network (blue dashed) fails to improve (stuck near ~0.98 error) ([How to initialize deep neural networks? Xavier and Kaiming initialization • Pierre Ouannes](https://pouannes.github.io/blog/initialization/#:~:text=Here%E2%80%99s%20the%20graph%20for%20the,layer%20model)).*
 
-![He vs Xavier Convergence](./error_vs_epoch.png)
+![He vs Xavier Convergence](./img/error_vs_epoch.png)
 - GPT 4o Deep Research Generated Error vs Epoch Comparison
 
 
@@ -242,4 +242,4 @@ By doing so, you’ll set up your network to train on a solid foundation. And as
 
 
 ## GPT 4o Deep Research Sources 
-![GPT Sources](./sources.png)
+![GPT Sources](./img/sources.png)
